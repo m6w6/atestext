@@ -13,9 +13,9 @@ dnl [  --with-atestext             Include atestext support])
 
 dnl Otherwise use enable:
 
-dnl PHP_ARG_ENABLE(atestext, whether to enable atestext support,
+PHP_ARG_ENABLE(atestext, whether to enable atestext support,
 dnl Make sure that the comment is aligned:
-dnl [  --enable-atestext           Enable atestext support])
+[  --enable-atestext           Enable atestext support])
 
 if test "$PHP_ATESTEXT" != "no"; then
   dnl Write more examples of tests here...
